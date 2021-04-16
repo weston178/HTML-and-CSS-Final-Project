@@ -1,0 +1,122 @@
+
+*{
+    font-size:12pt;
+    font-family:'Times New Roman', Times, serif;
+    background:white;
+    color:black;
+    text-align: left;
+    margin:0px;
+    padding:0px;
+    top:0%;
+    height:auto;
+    opacity:1;
+    border:none;
+    text-shadow:none;
+    font-weight:normal;
+}
+aside > img{
+    display:none;
+}
+img{
+    visibility: hidden;
+    display:none;
+}
+nav ul li{
+    border:none;
+    margin:0px;
+    text-decoration:underline;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18pt;
+    line-height: 100%;
+    font-weight: 900;
+    color: black;
+}
+h3{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12pt;
+    color: black;
+}
+.one-edge-shadow{
+    box-shadow: 0 0px 0px 0px;
+}
+nav ul li:last-child{
+    border-bottom: #C69B43 0px solid;
+}
+details>summary{
+	font-weight: 900;
+    color: black;
+    page-break-inside: avoid;
+}
+summary{
+    page-break-inside: avoid;
+}
+details{
+    page-break-inside: avoid;
+}
+summary::after{
+	content: ' â–º';
+	color: black;
+}
+details[open] summary:after{
+	content: " â–¼";
+	color: black;
+}
+footer{
+    display: none;
+}
+nav{
+    display: none;
+}
+a:link, a:visited, a:hover,a:active{
+    color:black;
+    text-decoration: underline;
+}
+ul li{
+    margin-left:15px;
+}
+p{
+    padding:12px;
+}
+/*Mobile*/
+[class*="col-"] {
+    width: 100%;
+    float:left;
+    padding:15px;  
+}
+@media only screen and (min-width: 600px){
+/*Tablet*/
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px){
+/*Desktop*/
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+.responsive{
+	width: 100%;
+    height: auto;
+    float: right;
+}
